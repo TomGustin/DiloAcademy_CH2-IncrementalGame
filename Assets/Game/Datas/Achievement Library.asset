@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Achievement Library
+  m_EditorClassIdentifier: Assembly-CSharp::AchievementLibrary
+  achievements:
+  - achievementName: Safe Home
+    achievementDescription: The safest place was build!
+    achievementID: building-house
+    collect: 1
+  - achievementName: Farmer
+    achievementDescription: Building farm to produce own wheat!
+    achievementID: building-farm
+    collect: 0
+  - achievementName: All for Food
+    achievementDescription: Building sheepfold to produce meat.
+    achievementID: building-sheepfold
+    collect: 0
+  - achievementName: Electricity is Power
+    achievementDescription: Build mill for powering your village.
+    achievementID: building-mill
+    collect: 0
+  - achievementName: Gold is Gold!
+    achievementDescription: You found the cave to mine!
+    achievementID: building-mine
+    collect: 0
+  - achievementName: Iron Man!
+    achievementDescription: You earn the knowledge how to make weapon!
+    achievementID: building-smelter
+    collect: 0
+  - achievementName: Bring me Money!!!
+    achievementDescription: You built market for trading!
+    achievementID: building-market
+    collect: 0
+  - achievementName: Don't touch me!
+    achievementDescription: Your first tap.
+    achievementID: tap-1
+    collect: 0
+  - achievementName: Ten is ten!
+    achievementDescription: You tap me 10 times!!!!
+    achievementID: tap-10
+    collect: 0
+  - achievementName: Unstoppable!!!
+    achievementDescription: I didn't count how many tap you doing.
+    achievementID: tap-100
+    collect: 0
